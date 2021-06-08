@@ -16,17 +16,21 @@ use Illuminate\Support\Facades\Route;
 
 /* Homepage */
 Route::get('/', function () {
-    return view('homepage');
+
+    $comics = config('items');
+
+    return view('homepage', ['cards'=> $comics]);
 })->name('homepage');
+
 
 /* Comics */
 
 Route::get('/comics', function(){
-    return 'Comics';
+    return view('comics');
 })->name('comics');
 
 /* Info */
 
 Route::get('/info', function(){
-    return 'Info';
+    return view('info');
 })->name('info');

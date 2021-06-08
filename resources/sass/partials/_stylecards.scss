@@ -1,0 +1,8 @@
+/* Cards */
+
+.cards {
+    flex-wrap: wrap;
+    .card {
+        flex-basis: calc(100% / 6 - 10px);
+    }
+}

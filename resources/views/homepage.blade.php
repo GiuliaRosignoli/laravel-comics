@@ -1,24 +1,12 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-        {{-- Main Style --}}
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-
-    </head>
-    <body>
-        <!--Header-->
-        @include('partials.header')
-
-
-        <!--Footer-->
-       @include('partials.footer')
-        
-    </body>
-</html>
+@extends('layouts.main')
+@section('content')
+<div class="container">
+    <div class="cards flex">
+        @foreach ($cards as $card)
+            <div class="card">
+                <img src="{{ $card['image'] }}" alt="">
+            </div>
+        @endforeach
+    </div>
+</div>
+@endsection
