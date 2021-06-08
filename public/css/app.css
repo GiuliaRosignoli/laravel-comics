@@ -1,0 +1,18 @@
+/* Colours */
+/* Typography */
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #360606;
+}
+
+/* Utilities */
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
