@@ -16,8 +16,6 @@
         <!--Header-->
         @include('partials.header')
 
-        <!--Main-->
-        @include('partials.main')
 
         <!--Footer-->
        @include('partials.footer')
