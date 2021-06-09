@@ -8,8 +8,17 @@
 }
 
 body {
+  padding-top: 94px;
   background-color: #1a1919;
   font-family: "Nunito", sans-serif;
+}
+
+main {
+  height: 600px;
+}
+
+.general-wrapper {
+  position: relative;
 }
 
 /* Utilities */
@@ -35,7 +44,17 @@ body {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 94px;
   background-color: #fff;
+}
+
+.card.container {
+  overflow-y: auto;
+  height: calc(100% - 80px);
 }
 
 .container {
@@ -64,6 +83,7 @@ header {
 }
 
 footer {
+  height: 80px;
   border-top: 1rem solid #1E90FF;
   background-color: #494949;
 }

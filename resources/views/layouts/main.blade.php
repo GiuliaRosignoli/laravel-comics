@@ -14,7 +14,8 @@
 
     </head>
     <body>
-        <!--Header-->
+        <div class="general-wrapper">
+            <!--Header-->
         @include('partials.header')
 
         <!--Main-->
@@ -27,6 +28,7 @@
         <!--Footer-->
        @include('partials.footer')
        
+        </div>
         
     </body>
 </html>

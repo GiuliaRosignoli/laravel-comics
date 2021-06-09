@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-<div class="container">
+<div class="card container">
     <div class="wrapper flex">
         <div class="cards flex">
             @foreach ($cards as $card)
