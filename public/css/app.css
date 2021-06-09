@@ -30,6 +30,10 @@ body {
   padding-bottom: 1.1rem;
 }
 
+.filler {
+  flex-grow: 1;
+}
+
 header {
   background-color: #fff;
 }
@@ -38,7 +42,7 @@ header {
   align-items: center;
 }
 .container a img {
-  width: 80px;
+  width: 75px;
   align-items: center;
   padding-right: 1rem;
 }
@@ -49,7 +53,7 @@ header {
 }
 .container .main-navigation a {
   display: inline-block;
-  padding: 0.7rem;
+  padding: 0.6rem;
   font-size: 0.8rem;
   text-decoration: none;
   font-weight: 800;
@@ -57,6 +61,15 @@ header {
 }
 .container .main-navigation a.active {
   background: #4e4e03;
+}
+
+footer {
+  border-top: 1rem solid #1E90FF;
+  background-color: #494949;
+}
+
+.footer.wrapper {
+  flex-direction: row;
 }
 
 /* Cards */
@@ -86,10 +99,16 @@ header {
   align-self: center;
   width: 10rem;
   padding: 0.4rem 2.2rem;
+  margin-bottom: 1.3rem;
   background-color: #1E90FF;
   font-size: 0.7rem;
   font-weight: 800;
   color: #fff;
   border: 1px solid transparent;
   cursor: pointer;
+}
+
+.footer-button {
+  width: 7rem;
+  padding: 0.5rem;
 }

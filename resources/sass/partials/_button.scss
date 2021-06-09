@@ -4,10 +4,16 @@
     align-self: center;
     width: 10rem;
     padding: 0.4rem 2.2rem;
+    margin-bottom: 1.3rem;
     background-color: $lightblue;
     font-size: 0.7rem;
     font-weight: 800;
     color: $white;
     border: 1px solid transparent;
     cursor: pointer;
+}
+
+.footer-button {
+    width: 7rem;
+    padding: 0.5rem;
 }
