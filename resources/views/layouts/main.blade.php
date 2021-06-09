@@ -7,7 +7,8 @@
         <title>@yield('title', 'Laravel Comics')</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700;800&display=swap" rel="stylesheet">
         {{-- Main Style --}}
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 

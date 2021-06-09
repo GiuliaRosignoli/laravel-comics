@@ -9,6 +9,7 @@
 
 body {
   background-color: #1a1919;
+  font-family: "Nunito", sans-serif;
 }
 
 /* Utilities */
@@ -48,10 +49,10 @@ header {
 }
 .container .main-navigation a {
   display: inline-block;
-  padding: 1rem;
+  padding: 0.7rem;
   font-size: 0.8rem;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 800;
   color: #3b3b3b;
 }
 .container .main-navigation a.active {
@@ -59,6 +60,10 @@ header {
 }
 
 /* Cards */
+.wrapper {
+  flex-direction: column;
+}
+
 .cards {
   flex-wrap: wrap;
   padding-top: 4rem;
@@ -75,4 +80,16 @@ header {
 }
 .cards .card img {
   width: 150px;
+}
+
+.load-button {
+  align-self: center;
+  width: 10rem;
+  padding: 0.4rem 2.2rem;
+  background-color: #1E90FF;
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: #fff;
+  border: 1px solid transparent;
+  cursor: pointer;
 }

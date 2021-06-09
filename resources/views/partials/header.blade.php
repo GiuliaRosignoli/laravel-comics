@@ -9,7 +9,7 @@
         <nav class="main-navigation">
             <ul>
                 <li><a href="{{ route('comics') }}">COMICS</a></li>
-                <li><a href="{{ route('info') }}">INFO</a></li>
+                <li><a href="{{ route('news') }}">NEWS</a></li>
             </ul>
         </nav>
     </section>

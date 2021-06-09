@@ -31,6 +31,6 @@ Route::get('/comics', function(){
 
 /* Info */
 
-Route::get('/info', function(){
-    return view('info');
-})->name('info');
+Route::get('/news', function(){
+    return view('news');
+})->name('news');
