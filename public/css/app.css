@@ -8,7 +8,6 @@
 }
 
 body {
-  padding-top: 94px;
   background-color: #1a1919;
   font-family: "Nunito", sans-serif;
 }
@@ -19,6 +18,7 @@ main {
 
 .general-wrapper {
   position: relative;
+  height: calc(100% - 90px);
 }
 
 /* Utilities */
@@ -83,7 +83,7 @@ header {
 }
 
 footer {
-  height: 80px;
+  height: 90px;
   border-top: 1rem solid #1E90FF;
   background-color: #494949;
 }
@@ -99,7 +99,7 @@ footer {
 
 .cards {
   flex-wrap: wrap;
-  padding-top: 4rem;
+  padding-top: 10rem;
 }
 .cards .card {
   flex-basis: calc(100% / 6 - 8px);

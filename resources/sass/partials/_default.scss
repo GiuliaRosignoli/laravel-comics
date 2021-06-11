@@ -7,7 +7,6 @@
 }
 
 body {
-    padding-top: 94px;
     background-color: $bg-col;
     font-family: 'Nunito', sans-serif;
 }
@@ -18,4 +17,5 @@ main {
 
 .general-wrapper {
     position: relative;
+    height: calc(100% - 90px);
 }
