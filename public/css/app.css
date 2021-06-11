@@ -21,6 +21,14 @@ main {
   height: calc(100% - 90px);
 }
 
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
 /* Utilities */
 .container {
   max-width: 1170px;
@@ -78,11 +86,12 @@ header {
   font-weight: 800;
   color: #3b3b3b;
 }
-.container .main-navigation a.active {
-  background: #4e4e03;
-}
 
 footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   height: 90px;
   border-top: 1rem solid #1E90FF;
   background-color: #494949;
@@ -90,6 +99,10 @@ footer {
 
 .footer.wrapper {
   flex-direction: row;
+}
+.footer.wrapper .socialmedia-icons li a img {
+  width: 55px;
+  margin-top: 0.8rem;
 }
 
 /* Cards */
@@ -125,10 +138,17 @@ footer {
   font-weight: 800;
   color: #fff;
   border: 1px solid transparent;
-  cursor: pointer;
+}
+.load-button:active {
+  background-color: #420642;
 }
 
 .footer-button {
-  width: 7rem;
-  padding: 0.5rem;
+  width: 8rem;
+  padding: 0.2rem;
+  background-color: inherit;
+  margin-top: 0.8rem;
+  font-weight: bold;
+  color: #fff;
+  border: 3px solid #1E90FF;
 }
