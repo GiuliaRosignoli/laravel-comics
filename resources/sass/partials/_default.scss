@@ -27,3 +27,7 @@ button {
 ul {
     list-style: none;
 }
+
+input:hover, ul li a img:hover {
+    transform: scale(1.3);
+} 
